@@ -1,0 +1,19 @@
+{
+  "name": "docsense",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ayaan F khan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  }
+}
